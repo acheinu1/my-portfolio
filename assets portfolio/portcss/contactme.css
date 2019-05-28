@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    width: 100%; 
+    height:100vh; 
+    background-image:url(../images/phone.jpg); 
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h1{
+    color: white;
+}
+.container p{
+    color: white;
+}
+.form{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+input{
+    width: 100%;
+    margin: 0em, 10em;
+    background: rgba(0,0,0,0);
+    border:none;
+    border-bottom: 0.1em solid white;
+}
+::-webkit-input-placeholder{
+    color:white;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+}
+#msg {
+    margin-top: 6em;
+}
+.btn {
+    border: 0.2em solid white;
+    padding: 0.5em 0.9em;
+    color:white;
+    text-decoration: none; 
+    margin-right:0.2em;
+    font-size: 0.8em;
+    border-radius: 0.5em;
+    text-align: center;
+    background-color: rgb(48, 112, 48);
+}
+.btn{
+    position: relative;
+    top: 4em;
+}

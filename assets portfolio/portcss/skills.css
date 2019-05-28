@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+#slider{
+width: 100%;
+height: 0;
+}
+.carosel-caption{
+    position: absolute;
+    top: 45%;
+    bottom: initial!important;
+    left: 40%;
+}
+.carousel-item {
+    max-height:15em;
+    margin: 0 auto;
+}
+.carosel-caption h5{
+    color: white;
+    font-size: 2em;
+}
+.carousel-indicators{
+    color:white;
+}
+/* about section */
+#about{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+    left: 10em;
+    /* text-align: center;
+    /* position: absolute; */
+    /* top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); */ 
+
+}
+.h2 {
+    position: relative;
+    left: 15em !important;
+
+}
+/* .btn-sm {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-color: rgb(243, 250, 243) !important;
+    background-color: rgb(74, 134, 74) !important; 
+    font-size: 1em; */
+
+
+.contents{
+    padding-top: 10em;
+    max-width: 35em;
+
+}
+.progress1{
+    width:50%;
+}
+.progress-bar {
+    background-color: rgb(42, 172, 96) !important;
+
+}
